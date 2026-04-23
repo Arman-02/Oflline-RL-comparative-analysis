@@ -1,0 +1,23 @@
+{
+  "algo": "bc",
+  "env": "halfcheetah",
+  "dataset": "medium-replay",
+  "exp_name": null,
+  "seed": 0,
+  "n_steps": 1000000,
+  "batch_size": 256,
+  "eval_freq": 5000,
+  "n_eval_ep": 10,
+  "normalise": true,
+  "hidden": 256,
+  "lr": 0.0003,
+  "discount": 0.99,
+  "td3bc_alpha": 2.5,
+  "policy_noise": 0.2,
+  "noise_clip": 0.5,
+  "policy_freq": 2,
+  "tau": 0.005,
+  "cql_alpha": 1.0,
+  "cql_n_actions": 10,
+  "results_dir": "results"
+}
